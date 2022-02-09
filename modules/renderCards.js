@@ -7,7 +7,7 @@ const renderCards = data => {
 
     const card = document.createElement('div');
     card.className = `item ${(item.width > item.height) ? 'item-horizontal' : 'item-vertical'}`;
-    card.style.backgroundImage = `url('${item.urls.small}')`;
+    card.style.backgroundImage = `url('${item.urls.regular}')`;
 
     const p = document.createElement('p');
     p.className = 'item-size';

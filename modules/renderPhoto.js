@@ -4,7 +4,6 @@ import renderCards from "./renderCards.js";
 const headerPoster = document.querySelector('.header');
 
 const firstRender = data => {
-  console.log(data);
   headerPoster.style.backgroundImage = `url('${data.urls.regular}')`;
 };
 

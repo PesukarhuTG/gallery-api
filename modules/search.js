@@ -13,7 +13,6 @@ const search = () => {
 
     getSearch(searchInput.value)
       .then(data => {
-        console.log(data);
         if (data.results.length) {
           renderCards(data.results);
         } else {

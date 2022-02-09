@@ -3,7 +3,7 @@
   --accent-color: rgb(0, 119, 255);
   --background-color: #252525;
   --shadow-color: #efefef;
-  --input-color: #cfe1f5;
+  --input-color: #e0ecf9;
 
   --header-size: 300px;
 }
@@ -95,6 +95,14 @@ body {
 
 .header-search-input:focus {
   background-color: var(--input-color);
+}
+
+.header-search-input::-webkit-search-decoration,
+.header-search-input::-webkit-search-cancel-button,
+.header-search-input::-webkit-search-results-button,
+.header-search-input::-webkit-search-results-decoration {
+  padding-right: 20px;
+  cursor: pointer;
 }
 
 /* ===================================== MAIN ============================== */
