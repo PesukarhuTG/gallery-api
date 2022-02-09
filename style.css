@@ -109,7 +109,7 @@ body {
 .title {
   display: block;
   margin: 20px 20px 30px;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .grid {
@@ -137,7 +137,7 @@ body {
 }
 
 .item:hover {
-  box-shadow: 0 0 15px 2px var(--input-color);
+  box-shadow: 0 0 15px 2px var(--main-font-color);
 }
 
 .item-horizontal {
