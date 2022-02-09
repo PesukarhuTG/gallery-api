@@ -1,6 +1,6 @@
 const listCards = document.querySelector('.grid');
 
-const renderCards = async (data) => {
+const renderCards = data => {
   listCards.textContent = '';
 
   const cards = data.map(item => {

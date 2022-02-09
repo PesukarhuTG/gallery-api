@@ -123,7 +123,6 @@ body {
   background-position: center;
   background-size: cover;
   overflow: hidden;
-  transition: background-size 0.8s;
 }
 
 .item:hover {
