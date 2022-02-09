@@ -4,7 +4,8 @@ import renderCards from "./renderCards.js";
 const headerPoster = document.querySelector('.header');
 
 const firstRender = data => {
-  headerPoster.style.backgroundImage = `url('${data.links.download}')`;
+  console.log(data);
+  headerPoster.style.backgroundImage = `url('${data.urls.regular}')`;
 };
 
 const renderPhoto = async () => {
